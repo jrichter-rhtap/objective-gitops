@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: objective-database-config
+data:
+  VECTORDB_HOST: "objective-database"
+  VECTORDB_PORT: ""
